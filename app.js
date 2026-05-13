@@ -21,10 +21,10 @@ const firebaseConfig = {
 
 const days = [
   { id: "day1", label: "Day 1", date: "July 28", title: "Arrival" },
-  { id: "day2", label: "Day 2", date: "July 29", title: "Lake Louise" },
-  { id: "day3", label: "Day 3", date: "July 30", title: "Moraine Lake" },
-  { id: "day4", label: "Day 4", date: "July 31", title: "Banff Town" },
-  { id: "day5", label: "Day 5", date: "August 1", title: "Head Home" },
+  { id: "day2", label: "Day 2", date: "July 29", title: "" },
+  { id: "day3", label: "Day 3", date: "July 30", title: "" },
+  { id: "day4", label: "Day 4", date: "July 31", title: "" },
+  { id: "day5", label: "Day 5", date: "August 1", title: "" },
 ];
 
 const fallbackState = {
