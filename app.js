@@ -266,7 +266,7 @@ function renderTimeline() {
               <div class="time">${activity.time}</div>
               <div>
                 <h3>${escapeHtml(activity.title)}</h3>
-                <p>${activity.owner ? `Owner: ${escapeHtml(activity.owner)}` : "Owner not assigned"}</p>
+                <p>${activity.owner ? `Driver: ${escapeHtml(activity.owner)}` : "Driver not assigned"}</p>
               </div>
               <button class="icon-button" type="button" aria-label="Delete activity" data-remove-activity="${activity.id}">x</button>
             </article>`,
@@ -438,7 +438,7 @@ elements.copyPlanButton.addEventListener("click", async () => {
       lines.push("- No activities yet");
     } else {
       items.forEach((activity) => {
-        lines.push(`- ${activity.time} ${activity.title}${activity.owner ? ` / Owner: ${activity.owner}` : ""}`);
+        lines.push(`- ${activity.time} ${activity.title}${activity.owner ? ` / Driver: ${activity.owner}` : ""}`);
       });
     }
 
